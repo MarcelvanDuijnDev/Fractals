@@ -508,7 +508,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1107458955}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.4178827, y: 4.777628, z: 3.9369035}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -618,6 +618,7 @@ GameObject:
   - component: {fileID: 1875785972}
   - component: {fileID: 1875785971}
   - component: {fileID: 1875785973}
+  - component: {fileID: 1875785974}
   m_Layer: 0
   m_Name: GameHandler
   m_TagString: Untagged
@@ -631,7 +632,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1875785970}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5afac05b34dfb8640bbc6ee50c67e30a, type: 3}
   m_Name: 
@@ -653,7 +654,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1875785970}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 100, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -665,7 +666,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1875785970}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b313880fab3a3534c88dbf0866cc49cd, type: 3}
   m_Name: 
@@ -681,3 +682,20 @@ MonoBehaviour:
     type: 2}
   _ParentObject: {fileID: 1882897818993582, guid: d47ea6a9314d16045af7d28ee751be31,
     type: 2}
+--- !u!114 &1875785974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1875785970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fe2e6ab3d58ea6418d8569fe653a92c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _Parentobject: {fileID: 1107458955}
+  _PrefabObject: {fileID: 1220399182711208, guid: 264f6980c58c49c43aba5ebbe2101332,
+    type: 2}
+  _Grid: {x: 10, y: 10}
+  _GridObjects: []
+  _Values: []

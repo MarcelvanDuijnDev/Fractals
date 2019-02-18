@@ -1,13 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using TMPro;
 using UnityEngine;
 
 public class Fractal_Madelbrot : MonoBehaviour
 {
     [SerializeField] private float _UpdateSpeed;
 
-    [SerializeField] private Mandelbrot[] _Mandelbrot;
+    [SerializeField] private MandelbrotOptions[] _Mandelbrot;
 
     [SerializeField] private GameObject _PrefabObject;
     [SerializeField] private GameObject _ParentObject;
@@ -102,7 +101,7 @@ public class Fractal_Madelbrot : MonoBehaviour
 
 
 [System.Serializable]
-public class Mandelbrot
+public class MandelbrotOptions
 {
     public float _P_CircleSize;
     public int _P_IterationSize;
